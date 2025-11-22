@@ -126,7 +126,7 @@ smart-rc-car-esp32cam/
 │
 ├── Documentation/                    # Folder for our project documentation
    ├── Car model.webp
-   ├── work process1.webp
+   ├── workprocess1.webp
    ├── work process2.webp
    ├── work process3.webp
    ├── work process4.webp
@@ -140,14 +140,14 @@ smart-rc-car-esp32cam/
 ## 🖼️ Gallery
 
 **The simplified Model**
-> ![Car Model](Documentation/Car model.webp)
+> ![Car Model](Documentation/Carmodel.webp)
 > *A minimal model for the full car.*
 
 **Our work process**
-> ![work process](Documentation/work process1.webp)
-> ![work process](Documentation/work process2.webp)
-![work process](Documentation/work process3.webp)
-![work process](Documentation/work process4.webp)
+> ![work process](Documentation/workprocess1.webp)
+> ![work process](Documentation/workprocess2.webp)
+![work process](Documentation/workprocess3.webp)
+![work process](Documentation/workprocess4.webp)
 *Some snippets from our hard work to get this project fully operational.*
 
 
