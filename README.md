@@ -1,7 +1,7 @@
 # Smart RC Car with AI Vision
 >![work process](Documentation/carpic.webp)
 >*A prototype for our car.*
-A classic RC car transformed into a smart, web-controlled vehicle using IoT microcontrollers and computer vision. This project leverages an **ESP32-CAM** for live video streaming and an **ESP8266** for motor control, creating a platform that can be driven remotely via a web interface and enhanced with AI using Python's MediaPipe library.
+>A classic RC car transformed into a smart, web-controlled vehicle using IoT microcontrollers and computer vision. This project leverages an **ESP32-CAM** for live video streaming and an **ESP8266** for motor control, creating a platform that can be driven remotely via a web interface and enhanced with AI using Python's MediaPipe library.
 
 ---
 
