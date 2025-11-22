@@ -1,7 +1,93 @@
+Skip to content
+Navigation Menu
+Dhia-zorai
+Smart-RC-Car-Esp32cam
+
+Type / to search
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Smart-RC-Car-Esp32cam
+/
+README.md
+in
+main
+
+Edit
+
+Preview
+Indent mode
+
+Spaces
+Indent size
+
+2
+Line wrap mode
+
+Soft wrap
+Editing README.md file contents
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
 # Smart RC Car with AI Vision
 ---
 >![work process](Documentation/carpic.webp)
-> A prototype for our car.
+---
+---
+>* A prototype for our car.*
 ---
 A classic RC car transformed into a smart, web-controlled vehicle using IoT microcontrollers and computer vision. This project leverages an **ESP32-CAM** for live video streaming and an **ESP8266** for motor control, creating a platform that can be driven remotely via a web interface and enhanced with AI using Python's MediaPipe library.
 
@@ -46,132 +132,7 @@ A classic RC car transformed into a smart, web-controlled vehicle using IoT micr
 *   **Python 3.13:** For the computer vision backend.
 *   **Python Libraries:**
     *   `opencv-python`
-    *   `mediapipe`
-
-
----
-
-## 🔧 Your guide for installation & Setup
-
-### 1. Flashing the Microcontrollers
-
-#### **ESP32-CAM (The "Eyes")**
-1.  Select the "AI Thinker ESP32-CAM" board in the Arduino IDE.
-2.  Install the necessary libraries for camera and WiFi.
-3.  Upload the provided `esp32cam_stream.ino` sketch.
-4.  **Don't forget to set your WiFi SSID and password in the code!**
-
->  **Tip:** 
-> without the ESP32-CAM's USB board you may need an FTDI programmer to flash the ESP32-CAM.
-
-#### **ESP8266 (The "Brain & Brawn")**
-1.  Select your ESP8266 board (NodeMCU 1.0) in the Arduino IDE.
-2.  Upload the provided `esp8266_webserver.ino` sketch.
-3.  **Set the same WiFi credentials as the ESP32-CAM.**
-
-After flashing, open the Serial Monitor for both devices to note their IP addresses.
-
-### 2. Wiring
-
-#### **ESP8266 to Motor Driver (L298N)**
-| ESP8266 | L298N Motor Driver |
-| :--- | :--- |
-| D1 | IN1 |
-| D2 | IN2 |
-| D3| ENA |
-| D4 | IN3 |
-| D5| IN4 |
-| D6 | ENB |
-
-The motor outputs of the L298N are then connected to the RC car's motors.
-
-#### **ESP32-CAM**
-*   Connect the camera module to the ESP32-CAM board.
-*   Provide a stable 5V power source.
-
-### 3. Running the AI Script
-
-1.  Navigate to the `emoji-reactor-main/` directory.
-2.  Install the required Python packages:
-    ```bash
-    pip install -r mediapipe.txt
-    ```
-3.  Run the MediaPipe script, updating the `VIDEO_STREAM_URL` to your ESP32-CAM's HTTPS address:
-    ```bash
-    python emoji_reactor.py.py
-    ```
-
----
-
-## 🖥️ Usage
-
-1.  **Power Up:** Turn on the power for both the ESP32-CAM and the ESP8266/motor system.
-2.  **Access the Dashboard:** On any device connected to the same WiFi network, open a browser and go to `https://<ESP32-CAM_IP_ADDRESS>`. You will see the  control interface.
-3.  **Drive the Car:** Use the on-screen buttons (Forward, Backward, Left, Right, Stop) to control the car.
-4.  **Enable AI:** Run the Python MediaPipe script. The program will detect faces and dynamically output emoji reaction images based on the facial expression currently detected .
-
----
-
-## 🗂️ Project Structure
-
-```
-smart-rc-car-esp32cam/
-│
-├── firmware/
-│   ├── esp32cam_stream/       # Code for the ESP32-CAM
-│   │   └── CameraWebServer.ino
-│   └── esp8266_control/       # Code for the ESP8266 web server
-│       └── esp_82_code.ino
-│
-├── python-ai-backend/
-│   ├── emoji_reactor.py # AI processing script
-│        
-│
-├── Documentation/                    # Folder for our project documentation
-   ├── carpic.webp
-   ├── Car model.webp
-   ├── workprocess1.webp
-   ├── work process2.webp
-   ├── work process3.webp
-   ├── work process4.webp
-   ├── interface.webp
-   └── Project presentation.pdf
-
-```
-
----
-
-## 🖼️ Gallery
-
-**The simplified Model**
-> ![Car Model](Documentation/Carmodel.webp)
-> *A minimal model for the full car.*
-
-**Our work process**
-> ![work process](Documentation/workprocess1.webp)
-> ![work process](Documentation/workprocess2.webp)
-![work process](Documentation/workprocess3.webp)
-![work process](Documentation/workprocess4.webp)
-*Some snippets from our hard work to get this project fully operational.*
-
-
-**The Web Interface**
-> ![Web Interface](Documentation/interface.webp)
-> *The browser-based controller.*
-
----
-
-## 🔮 Future Enhancements
-
-*   **Obstacle Avoidance:** Integrate ultrasonic sensors with the ESP8266.
-*   **Autonomous Navigation:** Implement a simple self-driving algorithm.
-*   **Voice Control:** Add control via voice commands.
-*   **Cloud Dashboard:** Use a service like Adafruit IO or MQTT for control over the internet.
-
----
-
-## 🙏 Acknowledgments
-
-*   Thanks to the Arduino and ESP32 communities for extensive documentation.
-*   Google for the powerful MediaPipe library.
-*   The open-source hardware ecosystem that makes projects like this possible.
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+No file chosen
+Attach files by dragging & dropping, selecting or pasting them.
+Editing Smart-RC-Car-Esp32cam/README.md at main · Dhia-zorai/Smart-RC-Car-Esp32cam
