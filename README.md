@@ -152,7 +152,7 @@ smart-rc-car-esp32cam/
 
 
 **The Web Interface**
-> ![Web Interface](images/interface.webp)
+> ![Web Interface](Documentation/interface.webp)
 > *The browser-based controller.*
 
 ---
