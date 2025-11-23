@@ -26,7 +26,7 @@ A classic RC car transformed into a smart, web-controlled vehicle using IoT micr
 | :--- | :--- | :--- |
 | RC Car Chassis | 1 | Base vehicle platform. |
 | ESP32-CAM Module | 1 | Primary controller for live video streaming. |
-| ESP8266 (e.g., NodeMCU) | 1 | Dedicated controller for driving motors. |
+| ESP8266 (NodeMCU 1.0) | 1 | Dedicated controller for driving motors. |
 | Motor Driver (L298N) | 1 | Interfaces the ESP8266 with the car's motors. |
 | DC Motors | 2 | Movement of the car. |
 |Power Bank | 2 | power for ESP32-CAM & ESP8266 Microcontrollers. |
