@@ -9,7 +9,7 @@ A classic RC car transformed into a smart, web-controlled vehicle using IoT micr
 
 ## 🚀 Features
 
-*   **Live Video Streaming:** ESP32-CAM streams real-time video feed securely over HTTP to PYTHON script.
+*   **Live Video Streaming:** ESP32-CAM streams real time video feed securely over HTTP to PYTHON script.
 *   **Web Control Interface:**  Browser-based controller for driving the car remotely from any device on the same network.
 *   **Dual-Microcontroller Architecture:** Separates the demanding task of video streaming (ESP32-CAM) from motor control (ESP8266) for stable performance.
 *   **AI-Powered Vision:** The video stream is processed by a Python script using Google's MediaPipe for advanced tasks like:
