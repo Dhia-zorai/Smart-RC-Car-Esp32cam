@@ -113,33 +113,6 @@ The motor outputs of the L298N are then connected to the RC car's motors.
 
 ---
 
-## 🗂️ Project Structure
-
-```
-smart-rc-car-esp32cam/
-│
-├── firmware/
-│   ├── esp32cam_stream/       # Code for the ESP32-CAM
-│   │   └── CameraWebServer.ino
-│   └── esp8266_control/       # Code for the ESP8266 web server
-│       └── esp_82_code.ino
-│
-├── python-ai-backend/
-│   ├── emoji_reactor.py # AI processing script
-│        
-│
-├── Documentation/                    # Folder for our project documentation
-   ├── carpic.webp
-   ├── Car model.webp
-   ├── workprocess1.webp
-   ├── work process2.webp
-   ├── work process3.webp
-   ├── work process4.webp
-   ├── interface.webp
-   └── Project presentation.pdf
-
-```
-
 ---
 
 ## 🖼️ Gallery
