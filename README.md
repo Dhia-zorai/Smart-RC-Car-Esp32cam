@@ -1,6 +1,6 @@
 # Smart RC Car with AI Vision
 ---
-<img src="Documentation/carpic.webp" width="600" alt="Assembled Car">
+<img src="Documentation/carpic.webp" height="600" alt="Prototype Car">
 
 >**A prototype for our car.**
 ---
