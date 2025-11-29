@@ -148,3 +148,6 @@ The motor outputs of the L298N are then connected to the RC car's motors.
 *   Thanks to the Arduino and ESP32 communities for extensive documentation.
 *   Google for the powerful MediaPipe library.
 *   The open-source hardware ecosystem that makes projects like this possible.
+   
+## Credits
+Big shout-out to my teammate @Mohamed-Amine-Saidani.
