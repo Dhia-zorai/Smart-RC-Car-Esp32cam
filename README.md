@@ -150,4 +150,4 @@ The motor outputs of the L298N are then connected to the RC car's motors.
 *   The open-source hardware ecosystem that makes projects like this possible.
    
 ## Credits
-Big shout-out to my teammate [**@Tsem74**](https://github.com/Tsem74)- PFA._.
+Big shout-out to my teammate [**@Tsem74**](https://github.com/Tsem74).
